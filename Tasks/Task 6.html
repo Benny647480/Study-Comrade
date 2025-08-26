@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 6</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .nav {
+            background-color: #556B2F;
+            height: 50px;
+        }
+
+        .footer {
+            background-color: #1E3A5F;
+            height: 50px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .sidebar {
+            width: 20%;
+        }
+
+        .main-content {
+            width: 60%;
+        }
+
+        .header-cell {
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        
+        <tr>
+            <td class="header-cell" colspan="1"></td>
+            <td class="header-cell" colspan="1"></td>
+            <td class="header-cell" colspan="1"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td>
+                
+                <p>Line 1</p>
+                <p>Line 2</p>
+                <p>Link 3</p>
+                <p>Line 4</p>
+            </td>
+            <td rowspan="1"></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+
+        
+        <tr>
+            <td colspan="3" class="nav"></td>
+        </tr>
+
+        
+        <tr>
+            <td class="sidebar"></td>
+            <td class="main-content content">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNXLc9gw_TX0u6RXZLAiUD1ya16QytnKWle74bKJR7ccOYcbzugtLap4&s=10" alt="Miami Beach">
+            </td>
+            <td class="sidebar"></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="footer"></td>
+        </tr>
+    </table>
+
+</body>
+</html>

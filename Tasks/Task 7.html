@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 7</title>
+  <style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+
+  .form-box {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  .form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+  }
+
+  .form-box label {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+  }
+
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .form-box input:focus {
+    border-color: #007BFF;
+  }
+
+  .form-box input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-box input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+<div class="form-box">
+  <h2>Form</h2>
+  <form>
+    <label>Name</label>
+    <input type="text" required>
+    <label>Age</label>
+    <input type="number" required>
+    <label>Designation</label>
+    <input type="text" required>
+    <label>Email</label>
+    <input type="email" required>
+    <label>Password</label>
+    <input type="password" required>
+    <label>Date of Birth</label>
+    <input type="date" required>
+    <input type="submit" value="Register">
+  </form>
+</div>
+
+</body>
+</html>
